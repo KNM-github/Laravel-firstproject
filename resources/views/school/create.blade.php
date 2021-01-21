@@ -5,7 +5,7 @@
 
 
 
-  <div class="card mt-3" id="myCard" style="width: 500px;margin: 0 auto;float:none;margin-bottom: 30px;">
+  <div class="card mt-3" id="myCard" style="width: 500px;margin: 0 auto;float:none;margin-bottom: 30px;margin-top: 100px;">
 
 	    <h5 class="card-header info-color white-text text-center py-4 bg-success" >
 	        <strong>School Info</strong>

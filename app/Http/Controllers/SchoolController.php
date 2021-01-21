@@ -23,7 +23,7 @@ class SchoolController extends Controller
                 ->get();*/
 
          $schools=School::with("post")->first();
-         dd($schools);
+         //dd($schools);
         return view('school.index',compact('schools'));        
     }
 

@@ -2,7 +2,7 @@
 				@section('content')
 
 				
-					<form action="{{route('act.store')}}" method="POST">
+					<form action="{{route('act.store')}}" method="POST" style="margin-top: 100px;">
 						@csrf
 						<div id="myCard">
 							<div class="card">
