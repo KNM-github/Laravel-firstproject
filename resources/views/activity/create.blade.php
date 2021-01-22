@@ -1,8 +1,6 @@
 				@extends('backend')
 				@section('content')
-
-				
-					<form action="{{route('act.store')}}" method="POST" style="margin-top: 100px;">
+					<form action="{{route('act.store')}}" style="margin-top: 100px;" method="POST" >
 						@csrf
 						<div id="myCard">
 							<div class="card">

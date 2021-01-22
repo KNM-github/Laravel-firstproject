@@ -1,8 +1,6 @@
 				@extends('backend')
 				@section('content')
-
-				
-					<form action="{{route('post.store')}}" class="form-inline justify-content-center mt-5" method="POST" enctype="multipart/form-data" style="margin-top: 100px;">
+					<form action="{{route('post.store')}}" style="margin-top: 100px;" class="form-inline justify-content-center mt-5" method="POST" enctype="multipart/form-data" >
 						@csrf
 						<div id="myCard">
 							<div class="card " style="width: 500px;">
